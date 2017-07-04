@@ -1,0 +1,48 @@
+﻿@model FacebookAccountViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Profil</h2>
+        <a href="@Url.Action("FbProfile", "Home", new { id = Model.Id })">
+            <img src="@Model.ImageUrl" />
+        </a>
+        <h4>@Model.Name</h4>
+        <h4>@Model.Email</h4>
+        <br />
+        <br />
+
+        <h2>Venner</h2>
+        @foreach (var friend in Model.friends)
+        {
+            <a href="@Url.Action("FbProfile", "Home", new { id = friend.Id })">
+                <img src="@friend.ImageUrl" />
+            </a>
+        }
+        <br />
+        <br />
+
+        <h2>Fotos</h2>
+        @foreach (var photo in Model.photos)
+        {
+            <img src="@photo.ImageUrl" title="Foto id: @photo.Id" style="padding: 2px; width: 100px; height: 100px;"/>
+        }
+    </div>
+    <div class="col-md-6">
+        <h2>Væg</h2>
+        <hr />
+        @foreach(var post in Model.posts)
+        {
+            <p>@post.Time</p>
+            <p>@post.Message</p>
+            <hr />
+        }
+    </div>
+    <div class="col-md-2">
+        <h2>Tilfældig bruger</h2>
+        @Html.ActionLink("Find tilfældig bruger", "RandomProfile", "Home")
+    </div>
+
+</div>

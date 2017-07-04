@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookRestApiClient", "FacebookRestApiClient\FacebookRestApiClient.csproj", "{6E16EF19-14E0-4F13-BC3F-61972875F75F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "defaultProject", "defaultProject\defaultProject.csproj", "{96F0E6DF-DA2E-4E07-B921-3D6B7B226390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookRestApiConnector", "FacebookRestApiConnector\FacebookRestApiConnector.csproj", "{45575607-D63B-4271-91EC-F9AD59C1A797}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "defaultUmbracoProject", "defaultUmbracoProject\defaultUmbracoProject.csproj", "{2D4CD50F-D9C8-47D5-AE02-A6203DD2ECB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookRestApiClientUmbraco", "FacebookRestApiClientUmbraco\FacebookRestApiClientUmbraco.csproj", "{82CE5586-5E77-482F-8699-767652F475A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E16EF19-14E0-4F13-BC3F-61972875F75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E16EF19-14E0-4F13-BC3F-61972875F75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E16EF19-14E0-4F13-BC3F-61972875F75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E16EF19-14E0-4F13-BC3F-61972875F75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96F0E6DF-DA2E-4E07-B921-3D6B7B226390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96F0E6DF-DA2E-4E07-B921-3D6B7B226390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96F0E6DF-DA2E-4E07-B921-3D6B7B226390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96F0E6DF-DA2E-4E07-B921-3D6B7B226390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45575607-D63B-4271-91EC-F9AD59C1A797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45575607-D63B-4271-91EC-F9AD59C1A797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45575607-D63B-4271-91EC-F9AD59C1A797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45575607-D63B-4271-91EC-F9AD59C1A797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D4CD50F-D9C8-47D5-AE02-A6203DD2ECB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D4CD50F-D9C8-47D5-AE02-A6203DD2ECB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D4CD50F-D9C8-47D5-AE02-A6203DD2ECB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D4CD50F-D9C8-47D5-AE02-A6203DD2ECB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82CE5586-5E77-482F-8699-767652F475A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82CE5586-5E77-482F-8699-767652F475A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82CE5586-5E77-482F-8699-767652F475A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82CE5586-5E77-482F-8699-767652F475A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+C:\Users\frank\Desktop\FacebookRestApiClient\FacebookRestApiConnector\bin\Debug\FacebookRestApiConnector.dll
+C:\Users\frank\Desktop\FacebookRestApiClient\FacebookRestApiConnector\bin\Debug\FacebookRestApiConnector.pdb
+C:\Users\frank\Desktop\FacebookRestApiClient\FacebookRestApiConnector\obj\Debug\FacebookRestApiConnector.dll
+C:\Users\frank\Desktop\FacebookRestApiClient\FacebookRestApiConnector\obj\Debug\FacebookRestApiConnector.pdb
